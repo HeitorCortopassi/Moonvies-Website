@@ -1,0 +1,84 @@
+
+.filme-info{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding: 0 50px;
+    margin: 0 auto;
+    background-color: #313131;
+    height: calc(100vh - 100px);
+    border-left: 1px solid rgb(71, 71, 71);
+    border-right: 1px solid rgb(71, 71, 71);
+    color: white;
+}
+
+.filme-info h1 {
+    margin: 15px 0 10px 0;
+
+}
+
+.data {
+    padding: 8px;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    border-radius: 2rem;
+    
+}
+
+.filme-info img {
+    border-radius: 10px;
+    width: 900px;
+    max-width: 100%;
+    max-height: 340px;
+    object-fit: cover;
+    margin-top: 10px;
+
+}
+
+.filme-info h3 {
+    margin-top: 14px;
+}
+.resumo {
+    margin: 8px 0;
+    color: rgb(216, 216, 216);
+}
+
+.area-buttons button {
+    margin-right: 12px;
+    margin-top: 14px;
+    margin-left: 0;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.area-buttons button:hover{
+    background-color: brown;
+    color: #FFF;
+}
+
+.area-buttons a:hover{
+    color: #FFF;
+    transition: all 0.5s;
+}
+
+.area-buttons a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+@media  screen and (max-width: 700px) {
+    .filme-info {
+        border-left: none;
+        border-right: none;
+    }
+}

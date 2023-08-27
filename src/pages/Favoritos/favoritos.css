@@ -1,0 +1,146 @@
+.meus-filmes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    max-width: 800px;
+    padding: 70px 100px;
+    background-color: #313131;
+    height: calc(100vh - 100px);
+    margin: 0 auto;
+    border-left: 1px solid rgb(71, 71, 71);
+    border-right: 1px solid rgb(71, 71, 71);
+}
+
+.meus-filmes h1{
+    margin-bottom: 60px;
+    
+    
+}
+
+.meus-filmes span {
+    font-size: 18px;
+    margin-bottom: 8px;
+    word-break:normal;
+}
+
+.meus-filmes ul{
+    width: 100%;
+    max-height: calc(100% - 180px);
+    overflow: auto;
+    
+}
+
+.meus-filmes ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    
+}
+
+.meus-filmes div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.detalhes{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    word-break:keep-all;
+}
+
+.excluir-btn {
+    margin-left: 0;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.detalhes {
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+    background-color: white;
+    
+}
+
+.detalhes:hover {
+    background-color: brown;
+}
+
+.excluir-btn:hover {
+    background-color: brown;
+}
+
+.filmes-salvos {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.filmes-salvos p {
+    font-size: 18px;
+}
+
+.voltar-home {
+    text-decoration: none;
+    padding: 12px;
+    background-color: brown;
+    margin-top: 20px;
+    border-radius: 2rem;
+    color: #FFF;
+    
+    
+}
+
+.voltar-home:hover {
+    border: solid 1px white;
+}
+
+@media  screen and (max-width: 764px) {
+    .meus-filmes {
+        padding: 30px;
+    }
+    .excluir-btn {
+        margin-left: 0;
+        font-size: 15px;
+        border: 0;
+        outline: none;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+    
+    .detalhes {
+        
+        margin-left: 0;
+        font-size: 15px;
+        border: 0;
+        outline: none;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 0.5s;
+        background-color: white;
+    }
+    .meus-filmes span {
+        font-size: 18px;
+        margin-bottom: 8px;
+        word-break:normal;
+        max-width: 80px;
+    }
+}
