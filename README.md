@@ -1,5 +1,5 @@
 # Moonvies-Website
-Now Playing Movies w/ Database API 
+Now Playing Movies w/ Database API  - React JS
 
 Mobile and Desktop
 
