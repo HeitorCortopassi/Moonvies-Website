@@ -5,8 +5,7 @@ Mobile and Desktop
 
 https://new-moonvies.netlify.app/
 
-https://github.com/HeitorCortopassi/Moonvies-Website/assets/117036117/50a9f4d5-a52e-458a-83ff-1caae104885c
+![ezgif com-video-to-gif (1)](https://github.com/HeitorCortopassi/Moonvies-Website/assets/117036117/dbcec7ef-11a5-48e7-84f0-e1348e0c3e33)
 
-https://github.com/HeitorCortopassi/Moonvies-Website/assets/117036117/b61e1509-af94-4765-8e53-780bd5a20d64
-
+![ezgif com-video-to-gif (2)](https://github.com/HeitorCortopassi/Moonvies-Website/assets/117036117/d6f8f332-6946-48f8-98f3-c245abb5fc53)
 
